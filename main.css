@@ -4,10 +4,15 @@
     padding: 0;
 }
 
-body > header {
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #2f3640;
-    padding: 16px 0;
+    padding: 16px 30px;
     color: #f5f6fa;
+    margin: 0 auto 0 auto;
 }
 
 header .container {
@@ -98,6 +103,10 @@ section h2 {
 #sports .articles article a {
     background-color: rgba(0, 255, 0, 0.8);
     color: black;
+}
+
+#sports h2 {
+    padding-top: 70px;
 }
 
 #sports .articles article a:hover {
