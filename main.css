@@ -35,6 +35,11 @@ header li a {
     text-decoration: none;
 }
 
+header li a:hover {
+    color: #bfc0c3;
+    text-decoration: underline;
+}
+
 .container {
     width: 1366px;
     margin: 0 auto 0 auto;
